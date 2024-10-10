@@ -37,7 +37,7 @@ p {
     grid-column: 1 / -1;
     height: 30px;
     width: 100%;
-    background-color: #0075b6;
+    background-color: var(--blue-logo-primary);
     color: #e3effb;
     text-decoration: none;
     align-items: center;
@@ -48,7 +48,7 @@ p {
 
 .submit-btn:hover {
     cursor: pointer;
-    background-color: #002e55;
+    background-color: var(--blue-logo-secondary);
     transition: all 0.2s;
 }
 

@@ -1,0 +1,33 @@
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    line-height: 0;
+}
+
+.back-to-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    gap: 5px;
+    height: 30px;
+    width: auto;
+    background-color: #cfcfcf;
+    color: black;
+    padding: 0 5px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.home-icon {
+    width: 15px;
+}
+
+.back-to-home:hover {
+    cursor: pointer;
+}

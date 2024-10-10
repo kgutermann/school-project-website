@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Poppins", sans-serif;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -7,6 +7,21 @@ body {
     justify-content: center;
     text-align: center;
     line-height: 0;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
+    visibility: hidden;
+}
+
+h1 {
+    margin-top: 80px;
+    font-weight: 500;
+    color: var(--gray-900);
+    line-height: 0;
+}
+
+p {
+    font-weight: 300;
+    color: var(--gray-800);
+    text-align: center;
 }
 
 .back-to-home {
@@ -15,19 +30,19 @@ body {
     justify-content: center;
     flex-flow: row nowrap;
     gap: 5px;
-    height: 30px;
-    width: auto;
-    background-color: #cfcfcf;
-    color: black;
-    padding: 0 5px;
+    margin-top: 30px;
+    background-color: var(--blue-logo-primary);
+    color:  var(--gray-100);
     text-decoration: none;
-    border-radius: 6px;
+    transition: all 0.2s;
 }
 
 .home-icon {
-    width: 15px;
+    width: 17px;
 }
 
 .back-to-home:hover {
     cursor: pointer;
+    background-color: var(--blue-logo-secondary);
+    transition: all 0.2s;
 }

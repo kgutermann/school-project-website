@@ -70,18 +70,10 @@ body {
     background-color: var(--gray-200);
 }
 
-/* Alten Chevron (Pfeil) ausblenden */
+/* Chevron (Pfeil) ausblenden */
 .service-type {
     -webkit-appearance: none;
     appearance: none;
-}
-
-.select-n-icon-wrapper {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
 }
 
 .service-type:hover,
@@ -91,18 +83,12 @@ body {
     cursor: pointer;
 }
 
-.rounded-pill {
-    border-radius: 100px;
-    padding: 12px 24px;
-    /* Erster Wert für top und bottom, zweiter Wert für left und right */
-}
-
 .details-btn {
     background-color: var(--blue-logo-primary);
     color: #ffffff;
     text-decoration: none;
     font-size: 1rem;
-    border: 1px solid #275989cc;
+    border: 1px solid #275989cc; /* Hier aufgehört */
     transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
 }
 

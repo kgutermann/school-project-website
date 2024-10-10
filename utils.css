@@ -14,6 +14,12 @@
     --blue-logo-secondary: #002e55;
 }
 
+.rounded-pill {
+    border-radius: 100px;
+    padding: 12px 24px;
+    /* Erster Wert für top und bottom, zweiter Wert für left und right */
+}
+
 /* Keyframes */
 
 @keyframes slide-in-from-top {

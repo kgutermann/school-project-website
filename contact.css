@@ -19,16 +19,17 @@ p {
 }
 
 .form {
-    display: grid;
+    display: flex;
     gap: 10px;
     margin: 20px;
-    grid-template-columns: auto 50vw;
+    width: 50vw;
+    flex-flow: column;
 }
 
 .input-group {
-    display: grid;
-    grid-column: 1 / -1;
-    grid-template-columns: subgrid;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
 }
 
 .submit-btn {
@@ -55,13 +56,11 @@ input {
     padding: 5px;
     border: 1px solid var(--gray-300);
     border-radius: 6px;
-    transition: all 0.2s;
 }
 
 input:focus, textarea:focus {
     outline: none;
     border: 1px solid var(--gray-400);
-    transition: all 0.2s;
 }
 
 textarea {
@@ -71,11 +70,10 @@ textarea {
     min-width: calc(100% - 13px);
     max-width: calc(100% - 13px);
     min-height: 100px;
-    transition: all 0.2s;
 }
 
 @media (max-width: 480px) {
     .form {
-        grid-template-columns: 90vw;
+        width: 90vw;
     }
 }

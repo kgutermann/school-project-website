@@ -5,21 +5,24 @@ body {
     align-items: center;
 }
 
+.get-in-toutch-container {
+    visibility: hidden;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
+}
+
 h1 {
     margin-top: 80px;
+    margin-bottom: 40px;
     font-weight: 500;
     color: var(--gray-900);
     line-height: 0;
-    visibility: hidden;
-    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
+    text-align: center;
 }
 
 p {
     font-weight: 300;
     color: var(--gray-800);
     text-align: center;
-    visibility: hidden;
-    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
 }
 
 .form {
@@ -28,8 +31,6 @@ p {
     margin: 20px;
     width: 50vw;
     flex-flow: column;
-    visibility: hidden;
-    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
 }
 
 .input-group {
@@ -79,9 +80,39 @@ textarea {
     min-height: 100px;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
+.how-to-container {
+    visibility: hidden;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 2.5s forwards;
+}
+
+ol {
+    color: var(--gray-800); 
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 500;
+    color: var(--gray-600);
+}
+
+.faq-container {
+    visibility: hidden;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 3.5s forwards;
+    margin-bottom: 80px;
+}
+
+.faq-question {
+    font-weight: 500;
+    color: var(--gray-800);
+}
+
+.faq-answer {
+    font-weight: 300;
+    color: var(--gray-500);
+    text-align: left;
 }
 
 @media (max-width: 480px) {

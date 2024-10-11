@@ -35,9 +35,9 @@ p {
 .submit-btn {
     display: flex;
     grid-column: 1 / -1;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    width: calc(100% - 13px);
+    padding-left: 10px;
+    padding-right: 10px;
     background-color: var(--blue-700);
     color: var(--gray-100);
     text-decoration: none;
@@ -53,9 +53,10 @@ p {
 }
 
 input {
-    padding: 5px;
+    padding: 10px;
     border: 1px solid var(--gray-300);
-    border-radius: 6px;
+    border-radius: 10px;
+    width: calc(100% - 13px);
 }
 
 input:focus, textarea:focus {
@@ -64,9 +65,9 @@ input:focus, textarea:focus {
 }
 
 textarea {
-    padding: 5px;
+    padding: 10px;
     border: 1px solid var(--gray-300);
-    border-radius: 6px;
+    border-radius: 10px;
     min-width: calc(100% - 13px);
     max-width: calc(100% - 13px);
     min-height: 100px;

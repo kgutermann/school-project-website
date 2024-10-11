@@ -51,7 +51,7 @@ body {
     border-radius: 100px;
     border: 1px solid var(--gray-100);
     visibility: hidden;
-    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 2s forwards;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 2.5s forwards;
 }
 
 .service-type,
@@ -144,6 +144,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-bottom: 50px;
     visibility: hidden;
     animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 4.5s forwards;
 }

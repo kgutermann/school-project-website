@@ -60,7 +60,7 @@ h1 {
 }
 
 table {
-    width: 700px;
+    width: 60%;
     border-collapse: separate;
     border-spacing: 0; 
     border-radius: 10px; 
@@ -69,6 +69,7 @@ table {
     overflow: hidden;
     visibility: hidden;
     animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 2.5s forwards;
+    
 }
 
 th {

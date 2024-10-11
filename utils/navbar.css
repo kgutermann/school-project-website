@@ -60,3 +60,36 @@ body {
     cursor: pointer;
     transition: 0.3s ease;
 }
+
+@media (max-width: 950px) {
+
+    .navbar-logo {
+        display: none;
+    }
+
+    .navbar-container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-links {
+        margin-left: 20px;
+    }
+
+}
+
+@media (max-width: 628px) {
+
+    .navbar-container {
+        width: 90%;
+    }
+
+    .navbar-links {
+        gap: 5px;
+    }
+
+    .navbar-link-btn {
+        font-size: small;
+    }
+    
+}

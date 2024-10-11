@@ -10,12 +10,16 @@ h1 {
     font-weight: 500;
     color: var(--gray-900);
     line-height: 0;
+    visibility: hidden;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
 }
 
 p {
     font-weight: 300;
     color: var(--gray-800);
     text-align: center;
+    visibility: hidden;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
 }
 
 .form {
@@ -24,6 +28,8 @@ p {
     margin: 20px;
     width: 50vw;
     flex-flow: column;
+    visibility: hidden;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
 }
 
 .input-group {
@@ -71,6 +77,11 @@ textarea {
     min-width: calc(100% - 13px);
     max-width: calc(100% - 13px);
     min-height: 100px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
 }
 
 @media (max-width: 480px) {

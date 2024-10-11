@@ -7,7 +7,7 @@ body {
 
 .get-in-toutch-container {
     visibility: hidden;
-    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 0.5s forwards;
 }
 
 h1 {
@@ -82,7 +82,7 @@ textarea {
 
 .how-to-container {
     visibility: hidden;
-    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 2.5s forwards;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
 }
 
 ol {
@@ -100,7 +100,7 @@ h2 {
 
 .faq-container {
     visibility: hidden;
-    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 3.5s forwards;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 2.5s forwards;
     margin-bottom: 80px;
 }
 

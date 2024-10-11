@@ -14,12 +14,12 @@ h1 {
 }
 
 .animation-services-heading {
-    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 0.5s forwards;
     visibility: hidden;
 }
 
 .animation-compare-heading {
-    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 2.5s forwards;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
     visibility: hidden;
 }
 
@@ -28,7 +28,7 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     visibility: hidden;
-    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 0.5s forwards;
 }
 
 .service-block {
@@ -68,7 +68,7 @@ table {
     border: 1px solid var(--gray-100);
     overflow: hidden;
     visibility: hidden;
-    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 2.5s forwards;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 1.5s forwards;
     
 }
 

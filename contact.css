@@ -38,7 +38,7 @@ p {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-    background-color: var(--blue-logo-primary);
+    background-color: var(--blue-700);
     color: var(--gray-100);
     text-decoration: none;
     align-items: center;
@@ -48,7 +48,7 @@ p {
 
 .submit-btn:hover {
     cursor: pointer;
-    background-color: var(--blue-logo-secondary);
+    background-color: var(--blue-800);
     transition: all 0.2s;
 }
 

@@ -1,4 +1,6 @@
 :root {
+    --white: #ffffff;
+    --gray-transparent: #f9fafb82;
     --gray-50: #f9fafb;
     --gray-100: #f3f4f6;
     --gray-200: #e5e7eb;
@@ -10,8 +12,18 @@
     --gray-800: #1f2937;
     --gray-900: #111827;
     --gray-950: #030712;
-    --blue-logo-primary: #0075b6;
-    --blue-logo-secondary: #002e55;
+    --blue-50: #f0f9ff;
+    --blue-100: #dff2ff;
+    --blue-200: #b9e6fe;
+    --blue-300: #7bd4fe;
+    --blue-400: #34bdfc;
+    --blue-500: #0aa6ed;
+    --blue-600: #0084cb;
+    --blue-700: #0075b6;
+    --blue-800: #055a87;
+    --blue-900: #0a4a70;
+    --blue-950: #072f4a;
+    --star-yellow: #f1c40f;
 }
 
 .rounded-pill {

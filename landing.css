@@ -58,7 +58,7 @@ body {
 .service-date {
     border: 1px solid var(--gray-200);
     background-color: var(--gray-100);
-    color: #1e293b;
+    color: var(--gray-800);
     font-size: medium;
     transition: 0.3s ease;
 }
@@ -84,18 +84,18 @@ body {
 }
 
 .details-btn {
-    background-color: var(--blue-logo-primary);
-    color: #ffffff;
+    background-color: var(--blue-700);
+    color: var(--gray-50);
     text-decoration: none;
-    font-size: 1rem;
-    border: 1px solid #275989cc; /* Hier aufgehört */
+    font-size: 15px;
+    border: 1px solid var(--blue-800); /* Hier aufgehört */
     transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
 }
 
 .details-btn:hover {
-    background-color: #275989;
-    border: 1px solid #1f486e;
-    color: #f8fafc;
+    background-color: var(--blue-800);
+    border: 1px solid var(--blue-900);
+    color: var(--gray-100);
     cursor: pointer;
     transition: 0.3s ease;
 }
@@ -125,15 +125,90 @@ body {
 
 .testimonial-text {
     font-weight: 300;
-    color: #475569;
+    color: var(--gray-600);
 }
 
 .testimonial-author {
     font-weight: 500;
-    color: #1e293b;
+    color: var(--gray-800);
 }
 
 .rating-star {
-    color: #f1c40f;
+    color: var(--star-yellow);
     width: 20px;
+}
+
+.about-us-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    visibility: hidden;
+    animation: slide-in-from-top 1.5s cubic-bezier(0, .91, .87, .93) 4.5s forwards;
+}
+
+.about-us-heading {
+    font-weight: 500;
+    color: var(--gray-800);
+}
+
+.about-us-content {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-us-blocks-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+
+.about-us-block {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+    width: 250px;
+}
+
+.about-us-video {
+    border: none;
+    border-radius: 10px;
+}
+
+.about-us-blocks-icon-container {
+    background-color: var(--gray-100);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-blocks-icon {
+    width: 20px;
+    color: var(--blue-700);
+}
+
+.about-us-blocks-text {
+    font-weight: 300;
+    color: var(--gray-800);
+}
+
+.about-us-blocks-heading {
+    line-height: 0;
+    font-weight: 500;
+    color: var(--gray-800);
+}
+
+@media (max-width: 1155px) {
+    .about-us-content {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    
 }

@@ -31,7 +31,7 @@ p {
     flex-flow: row nowrap;
     gap: 5px;
     margin-top: 30px;
-    background-color: var(--blue-logo-primary);
+    background-color: var(--blue-700);
     color:  var(--gray-100);
     text-decoration: none;
     transition: all 0.2s;
@@ -43,6 +43,6 @@ p {
 
 .back-to-home:hover {
     cursor: pointer;
-    background-color: var(--blue-logo-secondary);
+    background-color: var(--blue-800);
     transition: all 0.2s;
 }
